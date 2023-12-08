@@ -11,7 +11,7 @@ print_rec ()
 }
 
 if [ -z "$2" ]; then
-   for subs in "www" "lb-01" "web-01" "web-02"
+   for subs in "www.tunedaycodes.tech" "lb-01" "web-01" "web-02"
    do
        print_rec "$1" "$subs"
    done
